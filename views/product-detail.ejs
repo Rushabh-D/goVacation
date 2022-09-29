@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+      
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+      .checked {
+        color: orange;
+      }
+      </style>
+
+    <title>goVacation.com</title>
+  </head>
+  <body>
+
+
+    <div class="header">
+      <nav class="navbar navbar-expand-md navigation-clean-search">
+        <div class="container col-8">
+        <a class="navbar-brand" href="#"
+          ><a href="/"><img src="./image/newlogo.png" alt=""
+        /></a>
+        <button
+          class="navbar-toggler"
+          data-toggle="collapse"
+          data-target="#navcol-1"
+        >
+          <span class="sr-only">Toggle navigation</span
+          ><span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <div class="collapse navbar-collapse" id="navcol-1">
+          <ul class="nav navbar-nav">
+          <li class="nav-item" role="presentation">
+            <a class="nav-link" href="/">Home</a>
+          </li>
+          <li class="nav-item" role="presentation">
+            <a class="nav-link" href="/about-us">About</a>
+          </li>
+          <li class="nav-item" role="presentation">
+            <a class="nav-link" href="/contact-us">Contact Us</a>
+          </li>
+          <li class="nav-item" role="presentation">
+            <a class="nav-link" href="/feedback">Feedback</a>
+          </li>
+          </ul>
+        </div>
+        </div>
+        <div class="container col-2">
+        <span>
+          <a
+          class="btn btn-dark action-button pull-right"
+          role="button"
+          href="/login"
+          >Log In / Sign Up</a
+          >
+        </span>
+        <!-- <span><a class="btn btn-info action-button pull-right" role="button" href="#">BOOK NOW</a></span> -->
+        </div>
+      </nav>
+      </div>
+      <br />  <br /><br />
+       
+        <div class="content-center" style="text-align:center">
+          <div> <h3>Details Of Hotel</h3></div><br>
+    <div> Name of the Hotel :  <%= hotel.name%></div> <br>
+    <div>Price :  <%= hotel.price%></div> <br>
+    <div>Address : <%= hotel.address%>  </div> <br>
+    
+    <div> Rating : <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star checked"></span>
+      <span class="fa fa-star"></span>
+    </div> <br><br>
+    <div>
+      <button type="button" onclick="alert('Please Login to book hotel..!')">Book Hotel</button>
+    </div> <br><br><br><br>
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    
+    
+  <footer class="bg-dark text-center text-white">
+    
+    <div class="container p-4 pb-0">
+    
+      <section class="">
+        <form action="">
+         
+          <div class="row d-flex justify-content-center">
+           
+            <div class="col-auto">
+              <p class="pt-2">
+                <strong>Sign up for more info</strong>
+              </p>
+            </div>
+  
+            
+            <div class="col-md-5 col-12">
+             
+              <div class="form-outline form-white mb-4">
+                <input type="email" id="form5Example29" class="form-control" />
+                <label class="form-label" for="form5Example29">Email address</label>
+              </div>
+            </div>
+          
+            <div class="col-auto">
+              
+              <button type="submit" class="btn btn-outline-light mb-4">
+                Subscribe
+              </button>
+            </div>
+           
+          </div>
+         
+        </form>
+      </section>
+     
+    </div>
+    
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2022 Copyright:
+      <a class="text-white" href="/">goVacation.com</a>
+    </div>
+ 
+  </footer>
+  </body>
+</html>

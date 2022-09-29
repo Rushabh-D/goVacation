@@ -1,0 +1,46 @@
+body
+{
+    background-image: url("../image/bg-image.jpg");
+    background-repeat: no-repeat;
+     background-size: cover;
+}
+.wrap
+{
+    width: 500px;
+    height:400px;
+    margin: 30px auto;
+}
+h1
+{
+    font-size: 70px;
+    color: blueviolet;
+    text-align: center;
+    border-bottom: 2px solid white;
+}
+table{font-size: 25px;}
+
+td{
+    padding: 20px 20px 0px 0px;
+}
+
+.txt
+{
+    width: 400px;
+    height: 50px;
+    border-radius: 8px;
+}
+.txtarea
+{
+    width: 830px;
+    height: 150px;
+    border-radius: 8px;
+}
+/* .btn
+{
+    width: 830px;
+    height: 50px;
+    background-color: darkblue;
+    border-radius: 8px;
+    font-size: 20px;
+    color: white;
+} */

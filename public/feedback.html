@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+      body {
+        background-image: url("./image/lonavla-hill-1.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="content">
+      <!-- header -->
+      <div class="header">
+        <nav class="navbar navbar-expand-md navigation-clean-search">
+          <div class="container col-8">
+            <a class="navbar-brand" href="#"
+              ><a href="/"><img src="./image/newlogo.png" alt=""
+            /></a>
+            <button
+              class="navbar-toggler"
+              data-toggle="collapse"
+              data-target="#navcol-1"
+            >
+              <span class="sr-only">Toggle navigation</span
+              ><span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navcol-1">
+              <ul class="nav navbar-nav">
+                <li class="nav-item" role="presentation">
+                  <a class="nav-link" href="/">Home</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <a class="nav-link" href="/about-us">About</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <a class="nav-link" href="/contact-us">Contact Us</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <a class="nav-link" href="/feedback">Feedback</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="container col-2">
+            <span>
+              <a
+                class="btn btn-info action-button pull-right"
+                role="button"
+                href="./login.html"
+                >Log In / Sign Up</a
+              >
+            </span>
+            <!-- <span><a class="btn btn-info action-button pull-right" role="button" href="#">BOOK NOW</a></span> -->
+          </div>
+        </nav>
+      </div>
+      <!-- header close -->
+      <div class="container mt-4 shadow-lg">
+        <div class="row">
+          <div class="col-md-3"></div>
+          <div class="col-md-6">
+            <h2 class="text-white">Feedback</h2>
+            <p class="text-black">
+              we would love to to hear your thoughts,concerns or problem with
+              anything so we can improve
+            </p>
+            <hr />
+            <form>
+              <h4>Overall Experience</h4>
+              <div class="row">
+                <div class="col-md-4">
+                  <input
+                    type="radio"
+                    name="feed"
+                    class="pointer"
+                  />&nbsp;&nbsp;<label>Good</label>
+                </div>
+                <div class="col-md-4">
+                  <input type="radio" name="feed" />&nbsp;&nbsp;<label
+                    >Average</label
+                  >
+                </div>
+                <div class="col-md-4">
+                  <input type="radio" name="feed" />&nbsp;&nbsp;<label
+                    >Bad</label
+                  >
+                </div>
+              </div>
+
+              <div class="form-group mt-3 mb-3">
+                <label class="form-label">Full Name*</label>
+                <input type="text" class="form-control" placeholder="Full Name" required="" autofocus />
+              </div>
+              <div class="form-group mb-2">
+                <label class="form-label">Email*</label>
+                <input type="Email" class="form-control" placeholder= "Email"required="" />
+              </div>
+              <div class="form-group mb-2">
+                <label class="form-label">Describe Feedback*</label>
+                <textarea rows="4" class="form-control"  required=""></textarea>
+              </div>
+
+              <button type="button" onclick="alert('Thankyou..! Feedback Submitted')">Submit Feedback</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <br>
+    <br>
+    <footer class="bg-dark text-center text-white">
+    
+      <div class="container p-4 pb-0">
+      
+        <section class="">
+        <form action="">
+         
+          <div class="row d-flex justify-content-center">
+           
+          <div class="col-auto">
+            <p class="pt-2">
+            <strong>Sign up for more info</strong>
+            </p>
+          </div>
+      
+          
+          <div class="col-md-5 col-12">
+           
+            <div class="form-outline form-white mb-4">
+            <input type="email" id="form5Example29" class="form-control" />
+            <label class="form-label" for="form5Example29">Email address</label>
+            </div>
+          </div>
+          
+          <div class="col-auto">
+            
+            <button type="submit" class="btn btn-outline-light mb-4">
+            Subscribe
+            </button>
+          </div>
+           
+          </div>
+         
+        </form>
+        </section>
+       
+      </div>
+      
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        © 2022 Copyright:
+        <a class="text-white" href="/">goVacation.com</a>
+      </div>
+  </body>
+</html>

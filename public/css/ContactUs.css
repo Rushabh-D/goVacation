@@ -1,0 +1,38 @@
+*{
+	/* margin:0px;
+	padding:0px; */
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+.section{
+	width: 100%;
+	min-height: 100vh;
+    height: 100px;
+}
+.contain{
+	width: 80%;
+	display: block;
+	margin:auto;
+	padding-top: 100px;
+}
+.content-section{
+	float: left;
+	width: 55%;
+}
+.image-section{
+	position: absolute;
+	top: 15px; 
+	right: 15px;
+	float:none;
+	width:50%;
+
+}
+.image-section img{
+	width: 50%;
+	height: auto;
+	display: block;
+	margin:auto;
+}
+.content-section .social{
+	text-align: center;
+}

@@ -1,0 +1,47 @@
+
+/* header-style */
+.header{
+    /* background:url('https://bootstrapious.com/i/snippets/sn-static-header/background.jpg'); */
+    background-size:cover;
+    /* padding-bottom:10px;
+    padding-top: 10px; */
+}
+.navbar-brand{
+    color: white;
+}
+.nav-link{
+    color: white;
+}
+
+
+body {
+    margin: 0;
+    font-family: Arial;
+    font-size: 17px;
+    
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+}
+
+.content{
+    background:rgba(0, 0, 0, 0.5);
+}
+.card-body{
+    background-color:lightsteelblue;
+}
+/* .content {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+  } */
+
+  

@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./css/home.css" />
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <title>GoVacation.com</title>
+  </head>
+  <style>
+    .op {
+      opacity: 0.8;
+    }
+    body {
+      background-image: url("image/lonavla-hill-1.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+  </style>
+  <body>
+      <!-- header -->
+      <div class="header">
+        <nav class="navbar navbar-expand-md navigation-clean-search">
+          <div class="container col-8">
+            <a class="navbar-brand" href="#"
+              ><a href="/"><img src="./image/newlogo.png" alt=""
+            /></a>
+            <button
+              class="navbar-toggler"
+              data-toggle="collapse"
+              data-target="#navcol-1"
+            >
+              <span class="sr-only">Toggle navigation</span
+              ><span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navcol-1">
+              <ul class="nav navbar-nav">
+                <li class="nav-item" role="presentation">
+                  <a class="nav-link" href="/">Home</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <a class="nav-link" href="/about-us">About</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <a class="nav-link" href="/contact-us">Contact Us</a>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <a class="nav-link" href="/feedback">Feedback</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="container col-2">
+            <!-- <span><a class="btn btn-info action-button pull-right" role="button" href="#">BOOK NOW</a></span> -->
+          </div>
+        </nav>
+      </div>
+      <!-- header close -->
+      <div class="container-sm">
+        <nav class="navbar justify-content-center mb-3">
+          <ul class="nav nav-pills" role="tablist">
+            <li class="nav-item">
+              <a
+                class="nav-link active btn-primary"
+                data-toggle="pill"
+                href="#login"
+                >Login</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link btn-primary"
+                data-toggle="pill"
+                href="#register"
+                >Register</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+      <!-- login -->
+      <div class="tab-content">
+        <div id="login" class="container tab-pane active">
+          <br />
+          <div class="d-flex justify-content-center">
+            <form>
+              <div class="mb-4 op">
+                <input
+                  type="email/text"
+                  placeholder="Email or Username"
+                  size="50"
+                />
+              </div>
+              <div class="mb-4 op">
+                <input type="password" placeholder="Password" size="50" />
+              </div>
+              <div class="form-check mb-4">
+                <input class="form-check-input" type="checkbox" />
+                <label class="form-check-label"> Remember me </label>
+              </div>
+              <div>
+                <input
+                  class="btn btn-primary btn-block mb-3"
+                  type="button"
+                  onClick="location.href='/'"
+                  value="Sign In"
+                />
+              </div>
+              <div>
+                <a class="text-decoration-none text-dark" href="#!"
+                  >Forgot password?</a
+                >
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <!-- register -->
+        <div id="register" class="container tab-pane fade">
+          <br />
+          <div class="d-flex justify-content-center">
+            <form>
+              <div class="mb-3 op">
+                <input type="text" placeholder="Enter Name" size="50" />
+              </div>
+              <div class="mb-3 op">
+                <input type="text" placeholder="Enter UserName" size="50" />
+              </div>
+              <div class="mb-3 op">
+                <input type="email" placeholder="Enter Email" size="50" />
+              </div>
+              <div class="mb-3 op">
+                <input type="password" placeholder="Enter Password" size="50" />
+              </div>
+              <div class="mb-3 op">
+                <input
+                  type="password"
+                  placeholder="Re-Enter Password"
+                  size="50"
+                />
+              </div>
+              <div class="mb-3">
+                <input type="checkbox" />
+                <label> I agree to the terms & conditions.</label>
+              </div>
+              <div>
+                <button
+                  type="submit"
+                  class="btn btn-primary btn-block"
+                  onclick="alert('Succesfully Signed-Up')"
+                >
+                  Sign up
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <br />
+    </div>
+    <br>
+    <br>
+
+    <footer class="bg-dark text-center text-white">
+    
+      <div class="container p-4 pb-0">
+      
+        <section class="">
+        <form action="">
+         
+          <div class="row d-flex justify-content-center">
+           
+          <div class="col-auto">
+            <p class="pt-2">
+            <strong>Sign up for more info</strong>
+            </p>
+          </div>
+      
+          
+          <div class="col-md-5 col-12">
+           
+            <div class="form-outline form-white mb-4">
+            <input type="email" id="form5Example29" class="form-control" />
+            <label class="form-label" for="form5Example29">Email address</label>
+            </div>
+          </div>
+          
+          <div class="col-auto">
+            
+            <button type="submit" class="btn btn-outline-light mb-4">
+            Subscribe
+            </button>
+          </div>
+           
+          </div>
+         
+        </form>
+        </section>
+       
+      </div>
+      
+      <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        © 2022 Copyright:
+        <a class="text-white" href="/">goVacation.com</a>
+      </div>
+  </body>
+</html>
